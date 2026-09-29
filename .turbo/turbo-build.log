@@ -1,0 +1,119 @@
+
+> web@0.1.0 build C:\Products\BOS\apps\web
+> next build
+
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of C:\Products\BOS\pnpm-workspace.yaml as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * C:\Products\BOS\apps\web\pnpm-workspace.yaml
+
+▲ Next.js 16.2.10 (Turbopack)
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 104s
+  Running TypeScript ...
+  Finished TypeScript in 49s ...
+  Collecting page data using 3 workers ...
+  Generating static pages using 3 workers (0/83) ...
+  Generating static pages using 3 workers (20/83) 
+  Generating static pages using 3 workers (41/83) 
+  Generating static pages using 3 workers (62/83) 
+✓ Generating static pages using 3 workers (83/83) in 8.5s
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ○ /accounting
+├ ○ /admin/ai-insights
+├ ○ /admin/audit
+├ ○ /admin/broadcast
+├ ○ /admin/dashboard
+├ ○ /admin/feature-flags
+├ ○ /admin/finance
+├ ○ /admin/health
+├ ○ /admin/navigation
+├ ○ /admin/payments
+├ ○ /admin/plans
+├ ○ /admin/support
+├ ○ /admin/tenants
+├ ○ /analytics
+├ ○ /catalog/brands
+├ ○ /catalog/categories
+├ ○ /catalog/import
+├ ○ /catalog/products
+├ ƒ /catalog/products/[id]
+├ ○ /catalog/products/new
+├ ƒ /checkout/[token]
+├ ○ /crm
+├ ○ /crm/leads
+├ ƒ /crm/leads/[id]
+├ ○ /crm/opportunities
+├ ○ /crm/pipelines
+├ ○ /crm/segments
+├ ○ /customers
+├ ○ /customers/gift-cards
+├ ○ /customers/loyalty
+├ ○ /dashboard
+├ ○ /ecommerce
+├ ○ /ecommerce/channels
+├ ○ /ecommerce/logs
+├ ○ /ecommerce/orders
+├ ○ /inventory
+├ ○ /inventory/batches
+├ ○ /inventory/suppliers
+├ ○ /inventory/transfers
+├ ○ /invoices
+├ ƒ /invoices/[id]
+├ ○ /invoices/new
+├ ○ /login
+├ ○ /pos
+├ ○ /pos/restaurant
+├ ○ /pos/retail
+├ ○ /procurement
+├ ƒ /procurement/[id]
+├ ○ /procurement/new
+├ ○ /reports/bi
+├ ○ /reports/bi/comparative
+├ ○ /reports/bi/saved
+├ ○ /reports/bi/schedules
+├ ○ /reports/bi/templates
+├ ○ /reports/inventory
+├ ○ /reports/mushak-6-1
+├ ○ /reports/mushak-6-2
+├ ○ /reports/products
+├ ○ /reports/sales
+├ ○ /restaurant/delivery
+├ ○ /restaurant/delivery-partners
+├ ○ /restaurant/kitchen
+├ ○ /restaurant/menu
+├ ○ /restaurant/qr-order
+├ ○ /restaurant/recipes
+├ ○ /restaurant/reservations
+├ ○ /restaurant/settings
+├ ○ /restaurant/tables
+├ ○ /sales
+├ ƒ /sales/[saleId]
+├ ƒ /sales/[saleId]/return
+├ ○ /sales/returns
+├ ○ /sales/transactions
+├ ○ /settings/branches
+├ ○ /settings/organization
+├ ○ /settings/payments
+├ ○ /settings/permissions
+├ ○ /settings/roles
+├ ○ /settings/subscriptions
+├ ○ /settings/tax
+├ ○ /settings/uom
+├ ○ /settings/users
+├ ○ /warehouse
+├ ○ /warehouse/bins/new
+├ ○ /warehouse/transfer
+└ ○ /warehouse/zones/new
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+

@@ -1,0 +1,80 @@
+export const sales = {
+  // Sales Reports / Z-Report
+  title: 'বিক্রয় ও অডিট রিপোর্ট',
+  subtitle: 'দৈনিক রেজিস্টার সমন্বয়, কর ও ভ্যাট নিরীক্ষা এবং রাজস্ব পারফরম্যান্সের সারসংক্ষেপ।',
+  tab_z_report: 'দৈনিক ক্লোজিং রিপোর্ট (Z-Report)',
+  tab_tax: 'ট্যাক্স ও ভ্যাট নিরীক্ষা',
+  select_date: 'তারিখ নির্বাচন',
+  start_date: 'শুরুর তারিখ',
+  end_date: 'শেষের তারিখ',
+  download_csv: 'CSV এক্সপোর্ট',
+  loading_report: 'বিক্রয় ডাটা লোড হচ্ছে...',
+  no_data_for_date: 'এই সময়ের জন্য কোনো বিক্রয় লেনদেন পাওয়া যায়নি।',
+  
+  // Z-Report Metrics
+  register_summary: 'রেজিস্টার রাজস্ব সারসংক্ষেপ',
+  gross_sales: 'মোট বিক্রয় (Gross Sales)',
+  net_sales: 'নীট বিক্রয় (Net Sales)',
+  tax_collected: 'সংগৃহীত ভ্যাট/ট্যাক্স',
+  discount_given: 'প্রদত্ত মোট ছাড়',
+  total_transactions: 'মোট লেনদেন সংখ্যা',
+  avg_ticket: 'গড় বিক্রয় মূল্য (Avg Ticket)',
+  
+  // Payment Breakdown
+  payment_breakdown: 'পেমেন্ট পদ্ধতির বিবরণ',
+  payment_method: 'পেমেন্ট পদ্ধতি',
+  transactions_count: 'লেনদেন',
+  amount_collected: 'সংগৃহীত পরিমাণ',
+  cash: 'নগদ (Cash)',
+  card: 'ক্রেডিট / ডেবিট কার্ড',
+  mobile_banking: 'মোবাইল ব্যাংকিং (বিকাশ/নগদ)',
+  store_credit: 'স্টোর ক্রেডিট / গিফট কার্ড',
+  
+  // Cash Drawer Audit
+  drawer_audit: 'ক্যাশ ড্রয়ার সমন্বয়',
+  opening_float: 'ওপেনিং ক্যাশ ব্যালেন্স',
+  expected_cash: 'প্রত্যাশিত ক্যাশ ড্রয়ার ব্যালেন্স',
+  actual_cash: 'গণনাকৃত প্রকৃত ক্যাশ',
+  cash_discrepancy: 'পার্থক্য / অমিল (+/-)',
+  
+  // Category Sales Matrix
+  category_breakdown: 'ক্যাটাগরি ভিত্তিক বিক্রয় বিবরণ',
+  category_name: 'ক্যাটাগরির নাম',
+  items_sold: 'বিক্রিত ইউনিট',
+  revenue: 'নীট আয়',
+  share: 'বিক্রয়ের শতকরা হার',
+  
+  // Tax Compliance
+  tax_summary_title: 'ট্যাক্স ও ভ্যাট দায়বদ্ধতার সারসংক্ষেপ',
+  taxable_sales: 'করযোগ্য বিক্রয় (সাধারণ হার)',
+  exempt_sales: 'করমুক্ত বিক্রয় (Zero-rated / Exempt)',
+  total_output_tax: 'মোট প্রদেয় আউটপুট ট্যাক্স',
+  effective_rate: 'কার্যকর করের হার',
+
+  // Sales Returns
+  returns_title: 'বিক্রয় ফেরত ও এক্সচেঞ্জ (Returns)',
+  returns_subtitle: 'গ্রাহকের বিক্রয় ফেরত অনুরোধ পর্যালোচনা, অনুমোদন এবং ইনভেন্টরি রিস্টক অডিট।',
+  filter_all: 'সকল অবস্থা',
+  filter_pending: 'অপেক্ষমান পর্যালোচনা',
+  filter_approved: 'অনুমোদিত ও রিফান্ডকৃত',
+  filter_rejected: 'বাতিলকৃত',
+  search_returns: 'রসিদ নং বা গ্রাহকের নাম দিয়ে খুঁজুন...',
+  col_return_id: 'রিটার্ন আইডি',
+  col_receipt: 'মূল রসিদ নং',
+  col_customer: 'গ্রাহক',
+  col_date: 'অনুরোধের তারিখ',
+  col_items: 'পণ্যের সংখ্যা',
+  col_refund: 'রিফান্ডের পরিমাণ',
+  col_reason: 'ফেরতের কারণ',
+  col_status: 'অবস্থা',
+  col_actions: 'পদক্ষেপ',
+  action_approve: 'অনুমোদন ও রিস্টক',
+  action_reject: 'বাতিল করুন',
+  action_view_sale: 'বিক্রয় দেখুন',
+  status_pending: 'অপেক্ষমান',
+  status_approved: 'অনুমোদিত',
+  status_rejected: 'বাতিল',
+  no_returns_found: 'আপনার ফিল্টারের সাথে মিলে এমন কোনো ফেরতের অনুরোধ পাওয়া যায়নি।',
+  process_success: 'ফেরতের অনুরোধ সফলভাবে প্রক্রিয়া করা হয়েছে',
+  process_failed: 'ফেরতের অনুরোধ প্রক্রিয়া করতে ব্যর্থ হয়েছে',
+};

@@ -1,0 +1,80 @@
+export const sales = {
+  // Sales Reports / Z-Report
+  title: 'Sales Reports & Analytics',
+  subtitle: 'Daily register reconciliation, tax compliance audits, and revenue performance summaries.',
+  tab_z_report: 'Daily Z-Report',
+  tab_tax: 'Tax & VAT Compliance',
+  select_date: 'Select Date',
+  start_date: 'Start Date',
+  end_date: 'End Date',
+  download_csv: 'Export CSV',
+  loading_report: 'Loading sales data...',
+  no_data_for_date: 'No sales transactions recorded for this period.',
+  
+  // Z-Report Metrics
+  register_summary: 'Register Revenue Summary',
+  gross_sales: 'Gross Sales',
+  net_sales: 'Net Sales',
+  tax_collected: 'Tax Collected',
+  discount_given: 'Discounts Granted',
+  total_transactions: 'Total Transactions',
+  avg_ticket: 'Average Ticket Value',
+  
+  // Payment Breakdown
+  payment_breakdown: 'Payment Method Breakdown',
+  payment_method: 'Payment Method',
+  transactions_count: 'Transactions',
+  amount_collected: 'Collected Amount',
+  cash: 'Cash',
+  card: 'Credit / Debit Card',
+  mobile_banking: 'Mobile Banking (bKash/Nagad)',
+  store_credit: 'Store Credit / Gift Card',
+  
+  // Cash Drawer Audit
+  drawer_audit: 'Cash Drawer Reconciliation',
+  opening_float: 'Opening Cash Float',
+  expected_cash: 'Expected Drawer Cash',
+  actual_cash: 'Actual Counted Cash',
+  cash_discrepancy: 'Discrepancy (+/-)',
+  
+  // Category Sales Matrix
+  category_breakdown: 'Category Performance Breakdown',
+  category_name: 'Category Name',
+  items_sold: 'Units Sold',
+  revenue: 'Net Revenue',
+  share: 'Sales Share',
+  
+  // Tax Compliance
+  tax_summary_title: 'Tax & VAT Liability Summary',
+  taxable_sales: 'Taxable Sales (Standard Rate)',
+  exempt_sales: 'Zero-rated / Exempt Sales',
+  total_output_tax: 'Total Output Tax Payable',
+  effective_rate: 'Effective Tax Rate',
+
+  // Sales Returns
+  returns_title: 'Sales Returns & Exchanges',
+  returns_subtitle: 'Review, authorize, and audit customer return requests and inventory restocking.',
+  filter_all: 'All Statuses',
+  filter_pending: 'Pending Review',
+  filter_approved: 'Approved & Refunded',
+  filter_rejected: 'Rejected',
+  search_returns: 'Search by receipt # or customer...',
+  col_return_id: 'Return ID',
+  col_receipt: 'Original Receipt',
+  col_customer: 'Customer',
+  col_date: 'Date Requested',
+  col_items: 'Items',
+  col_refund: 'Refund Amount',
+  col_reason: 'Return Reason',
+  col_status: 'Status',
+  col_actions: 'Actions',
+  action_approve: 'Approve & Restock',
+  action_reject: 'Reject',
+  action_view_sale: 'View Sale',
+  status_pending: 'Pending',
+  status_approved: 'Approved',
+  status_rejected: 'Rejected',
+  no_returns_found: 'No return requests found matching your filters.',
+  process_success: 'Return request processed successfully',
+  process_failed: 'Failed to process return request',
+};

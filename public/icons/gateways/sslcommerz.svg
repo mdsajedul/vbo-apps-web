@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="sslGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A2540"/>
+      <stop offset="50%" stop-color="#0066CC"/>
+      <stop offset="100%" stop-color="#E63946"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#sslGrad)"/>
+  <path d="M64 26L95 38V62C95 82 81 98 64 104C47 98 33 82 33 62V38L64 26Z" fill="#FFFFFF" fill-opacity="0.18"/>
+  <text x="64" y="74" fill="#FFFFFF" font-size="28" font-weight="900" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle" letter-spacing="-1">SSL</text>
+</svg>
